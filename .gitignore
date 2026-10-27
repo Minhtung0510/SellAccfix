@@ -1,0 +1,27 @@
+# Environment variables & secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3-journal
+
+# Data & Database
+data/warranty.sqlite3*
+data/*.sqlite3*
+data/settings.json
+data/valorant_skins_cache.json
+data/warranty_evidence/
+data/icon_cache/
+data/logs/
+data/orders.json
+data/menus.json
+data/tickets.json
+data/stock_channel_state.json
+Admins.json
+
+# Stock text files (contains customer/sensitive account data)
+data/*.txt
+!data/.gitkeep
